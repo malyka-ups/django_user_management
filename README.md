@@ -46,19 +46,14 @@ Then login at http://127.0.0.1:8000/admin
 python manage.py test
 Screenshots
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### Profile
-![Profile](screenshots/profile.png)
+![Profile](./screenshots/profile.png)
 
 ### Admin Panel
-![Admin](screenshots/admin.png)
+![Admin](./screenshots/admin.png)
 
- Optional
-Docker Support (If added)
-
-
-docker-compose up --build
  Deployment
 Add your live site link here if deployed.
 
