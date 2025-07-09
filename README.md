@@ -45,14 +45,15 @@ Then login at http://127.0.0.1:8000/admin
  Run Tests
 python manage.py test
 Screenshots
-### Dashboard
-![Dashboard](./screenshots/dashboard.png)
 
-### Profile
-![Profile](./screenshots/profile.png)
+![Screenshot (24)](https://github.com/user-attachments/assets/edbdae12-8b65-424d-9cad-d3583f930a18)
 
-### Admin Panel
-![Admin](./screenshots/admin.png)
+
+![Screenshot (23)](https://github.com/user-attachments/assets/8f74705b-6190-43fc-8e4b-7c685d52fb9a)
+
+![Screenshot (22)](https://github.com/user-attachments/assets/04bf14cf-77e6-41a6-a35c-7538a720eaa7)
+
+
 
  Deployment
 Add your live site link here if deployed.
