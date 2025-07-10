@@ -1,27 +1,39 @@
-#  Django User Management System
+#  User Management System - Django Project
+A simple and powerful *Django-based User Management System* that supports registration, login/logout, profile management, password change, and an admin panel. It was built as part of a personal learning challenge.
 
-A simple Django project for managing user accounts with features like registration, login/logout, profile editing, password change, and an admin dashboard.
+##  Features
 
-## Features
-
--  User Registration & Login
--  User Authentication (with mock verification)
--  Profile Management (view, edit, upload profile picture)
+-  User Registration
+-  Login & Logout
+-  Profile View & Edit
 -  Password Change
--  Admin Panel (view & manage all users)
--  Unit Tests for models and views
+-  Admin Panel for User Management
+-  Custom User Types (Staff & Community Members)
+-  Authentication-protected profile page
+-  Unit Tests for Models and Views
 
 
 ##  Tech Stack
-
 - **Backend**: Django 5.2
 - **Database**: SQLite
 - **Frontend**: HTML, CSS (basic)
 
 
+## 📸 Screenshots
+
+> 🖼 Add screenshots of:
+
+![Screenshot (24)](https://github.com/user-attachments/assets/8e2dc372-ce82-4522-9533-3b0c04b16ff1)
+
+![Screenshot (23)](https://github.com/user-attachments/assets/25aa786b-adcc-4365-9c89-4d1dcb80ea30)
+
+ ![Screenshot (22)](https://github.com/user-attachments/assets/783babcc-5ebb-4ac9-b55b-00479a842b0a)
+
+
+
 ##  Setup Instructions
 
-### 1. Clone the repository
+### 1. Create and activate virtual environment
 ```bash
 git clone https://github.com/your-username/django-user-management.git
 cd django-user-management
@@ -35,31 +47,11 @@ python manage.py migrate
 5. Start the server
 python manage.py runserver
 Open your browser at http://127.0.0.1:8000
-
  Admin Access
 To access the Django Admin panel:
-
 python manage.py createsuperuser
 Then login at http://127.0.0.1:8000/admin
-
  Run Tests
 python manage.py test
-Screenshots
 
-!(https://github.com/user-attachments/assets/edbdae12-8b65-424d-9cad-d3583f930a18)
-
-
-!(https://github.com/user-attachments/assets/8f74705b-6190-43fc-8e4b-7c685d52fb9a)
-
-!(https://github.com/user-attachments/assets/04bf14cf-77e6-41a6-a35c-7538a720eaa7)
-![Screenshot (22)](https://github.com/user-attachments/assets/f77925d3-1c33-4d7a-89c4-f6618d52f2d4)
-
-
-
- Deployment
-Add your live site link here if deployed.
-
- Author
-Malicha Galma
-Student Developer, July 2025
 
